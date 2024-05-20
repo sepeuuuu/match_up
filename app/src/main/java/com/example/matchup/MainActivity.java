@@ -16,12 +16,12 @@ public class MainActivity extends AppCompatActivity {
 
     private Button[] buttons = new Button[12];
     private int[] images = {
-            R.drawable.flower1, R.drawable.flower1,
-            R.drawable.flower2, R.drawable.flower2,
-            R.drawable.flower3, R.drawable.flower3,
-            R.drawable.flower4, R.drawable.flower4,
-            R.drawable.flower5, R.drawable.flower5,
-            R.drawable.flower6, R.drawable.flower6
+            R.drawable.flower1, R.drawable.flower2,
+            R.drawable.flower6, R.drawable.flower4,
+            R.drawable.flower3, R.drawable.flower1,
+            R.drawable.flower4, R.drawable.flower6,
+            R.drawable.flower2, R.drawable.flower5,
+            R.drawable.flower5, R.drawable.flower3
     };
 
     private ArrayList<Integer> buttonIds = new ArrayList<>();
